@@ -25,11 +25,11 @@ VS Code's TypeScript support can operate in two different modes:
 
 ## tsconfig.json
 
-La première étape dans un nouveau projet TypeScript est d'ajouter un fichier `tsconfig.json`. Il permet de définir les propriétés du projet (https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) tel que les options de compilation et les fichiers qui doivent être inclus. Pour faire cela, ouvrez le dossier ou vous voulez stocker vos sources et ajouter un nouveau fichier `tsconfig.json`.  Once in this file, IntelliSense will help you along the way.
+La première étape dans un nouveau projet TypeScript est d'ajouter un fichier `tsconfig.json`. Il permet de définir les propriétés du projet (https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) tel que les options de compilation et les fichiers qui doivent être inclus. Pour faire cela, ouvrez le dossier ou vous voulez stocker vos sources et ajouter un nouveau fichier `tsconfig.json`. 
 
 ![jsconfig.json IntelliSense](images/typescript/jsconfigintellisense.png)
 
-A simple `tsconfig.json` looks like this for ES5, **CommonJS** [modules](http://www.commonjs.org/specs/modules/1.0) and source maps:
+Un simple `tsconfig.json` ressemble à cela pour ES5, **CommonJS** [modules](http://www.commonjs.org/specs/modules/1.0) et source maps:
 
 ```json
 {
