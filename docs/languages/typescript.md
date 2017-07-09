@@ -10,8 +10,8 @@ MetaSocialImage: typescript_Languages_typescript.png
 ---
 # Editing TypeScript
 
-TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.
-It offers classes, modules, and interfaces to help you build robust components. A language specification can be found [here](https://github.com/Microsoft/TypeScript/tree/master/doc).
+TypeScript est un sur-ensemble de JavaScript qui compile en JavaScript.
+Il offre les classes, modules, et interfaces pour vous aidez à contruire de robustes composants. Les spécifications du language peuvent être trouvé ici(https://github.com/Microsoft/TypeScript/tree/master/doc).
 
 ![TypeScript language within VS Code](images/typescript/typescript_hero.png)
 
