@@ -17,9 +17,9 @@ Il offre les classes, modules, et interfaces pour vous aidez à contruire de rob
 
 VS Code supporte TypeScript selon deux modes :
 
-* **File Scope**: Dans ce mode, les fichiers TypeScript ouverts dans Visual Studio Code sont traités comme des unités indépendantes. As long as a file `a.ts` doesn't reference a file `b.ts` explicitly (either using [/// reference directives](https://www.typescriptlang.org/docs/handbook/triple-slash-directives.html) or external modules) there is no common project context between the two files.
+* **File Scope**: Dans ce mode, les fichiers TypeScript ouverts dans Visual Studio Code sont traités comme des unités indépendantes. Tant que le fichier `a.ts` ne référence pas explicitement le fichier `b.ts` (en utilisant [/// reference directives](https://www.typescriptlang.org/docs/handbook/triple-slash-directives.html) ou des modules externes) il n'y a pas de contexte de projet commun entre les deux fichiers.
 
-* **Explicit Project**: a TypeScript project is defined via a `tsconfig.json` file. The presence of such a file in a directory indicates that the directory is the root of a TypeScript project. The file itself lists the files belonging to the project as well as compiler options. Details about the `tsconfig.json` file can be found [here](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html).
+* **Explicit Project**: Un projet TypeScript est défini via un fichier `tsconfig.json`. La présence d'un tel fichier dans un dossier indique que le dossier est le dossier principal du projet TypeScript.  Le fichier lui-même énumère les fichiers appartenant au projet ainsi que les options du compilateur. Vous trouverez des détails sur le fichier `tsconfig.json` [here](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html).
 
 >**Tip:** We recommend that you use explicit projects over file scope projects. Since explicit projects list the files belonging to a project language, features like `Find All References` `kb(editor.action.referenceSearch.trigger)` consider the project scope and not the file scope only.
 
