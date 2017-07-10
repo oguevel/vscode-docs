@@ -21,7 +21,7 @@ VS Code supporte TypeScript selon deux modes :
 
 * **Explicit Project**: Un projet TypeScript est défini via un fichier `tsconfig.json`. La présence d'un tel fichier dans un dossier indique que le dossier est le dossier principal du projet TypeScript.  Le fichier lui-même énumère les fichiers appartenant au projet ainsi que les options du compilateur. Vous trouverez des détails sur le fichier `tsconfig.json` [here](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html).
 
->**Tip:** We recommend that you use explicit projects over file scope projects. Since explicit projects list the files belonging to a project language, features like `Find All References` `kb(editor.action.referenceSearch.trigger)` consider the project scope and not the file scope only.
+>**Tip:** Nous vous recommandons d'utiliser les projets explicites.  Puisque les projets explicites énumèrent les fichiers appartenant à une langue de projet, des fonctionnalités telles que  `Find All References` `kb(editor.action.referenceSearch.trigger)` considèrent la portée du projet et non la portée du fichier uniquement. 
 
 ## tsconfig.json
 
@@ -41,13 +41,13 @@ Un simple `tsconfig.json` ressemble à cela pour ES5, **CommonJS** [modules](htt
 }
 ```
 
-Now when you create a `.ts` file as part of the project we will offer up rich editing experiences and syntax validation.
+Maintenant, lorsque vous créez un fichier `.ts` dans le projet, vous disposez de toutes les fonctionnalités d'un éditeur riche et de la validation syntaxique.
 
-## Transpiling TypeScript into JavaScript
+## Transpiling TypeScript en JavaScript
 
-VS Code integrates with `tsc` through our integrated [task runner](/docs/editor/tasks.md).  We can use this to transpile `.ts` files into `.js` files.  Let's walk through transpiling a simple TypeScript Hello World program.
+VS Code s'intègre avec `tsc` grâce à son [task runner](/docs/editor/tasks.md). Vous pouvez l'utiliser pour transpiler un fichier `.ts` en fichier `.js`.  Voyons cela grâce à un simple programme TypeScript "Hello World".
 
-### Step 1: Create a simple TS file
+### Step 1: Creer un simple fichier TS
 
 Open VS Code on an empty folder and create a `HelloWorld.ts` file, place the following code in that file...
 
