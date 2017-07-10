@@ -15,9 +15,9 @@ Il offre les classes, modules, et interfaces pour vous aidez à contruire de rob
 
 ![TypeScript language within VS Code](images/typescript/typescript_hero.png)
 
-VS Code's TypeScript support can operate in two different modes:
+VS Code supporte TypeScript selon deux modes :
 
-* **File Scope**: in this mode TypeScript files opened in Visual Studio Code are treated as independent units. As long as a file `a.ts` doesn't reference a file `b.ts` explicitly (either using [/// reference directives](https://www.typescriptlang.org/docs/handbook/triple-slash-directives.html) or external modules) there is no common project context between the two files.
+* **File Scope**: Dans ce mode, les fichiers TypeScript ouverts dans Visual Studio Code sont traités comme des unités indépendantes. As long as a file `a.ts` doesn't reference a file `b.ts` explicitly (either using [/// reference directives](https://www.typescriptlang.org/docs/handbook/triple-slash-directives.html) or external modules) there is no common project context between the two files.
 
 * **Explicit Project**: a TypeScript project is defined via a `tsconfig.json` file. The presence of such a file in a directory indicates that the directory is the root of a TypeScript project. The file itself lists the files belonging to the project as well as compiler options. Details about the `tsconfig.json` file can be found [here](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html).
 
