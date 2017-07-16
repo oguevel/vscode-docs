@@ -8,7 +8,7 @@ DateApproved: 6/8/2017
 MetaDescription: Get the best out editing TypeScript with Visual Studio Code.
 MetaSocialImage: typescript_Languages_typescript.png
 ---
-# Editing TypeScript
+# Editer et compiler du TypeScript
 
 TypeScript est un sur-ensemble de JavaScript qui compile en JavaScript.
 Il offre les classes, modules, et interfaces pour vous aidez à contruire de robustes composants. Les spécifications du language peuvent être trouvé ici(https://github.com/Microsoft/TypeScript/tree/master/doc).
@@ -43,7 +43,7 @@ Un simple `tsconfig.json` ressemble à cela pour ES5, **CommonJS** [modules](htt
 
 Maintenant, lorsque vous créez un fichier `.ts` dans le projet, vous disposez de toutes les fonctionnalités d'un éditeur riche et de la validation syntaxique.
 
-## Transpiling TypeScript en JavaScript
+## Transpiler TypeScript en JavaScript
 
 VS Code s'intègre avec `tsc` grâce à son [task runner](/docs/editor/tasks.md). Vous pouvez l'utiliser pour transpiler un fichier `.ts` en fichier `.js`.  Voyons cela grâce à un simple programme TypeScript "Hello World".
 
@@ -62,9 +62,9 @@ class Startup {
 Startup.main();
 ```
 
-### Step 2: Create tasks.json
+### Step 2: Créer un ficher tasks.json
 
-The next step is to set up the task configuration.  To do this open the **Command Palette** with `kb(workbench.action.showCommands)` and type in **Configure Task Runner**, press `kbstyle(Enter)` to select it. This shows a selection box with templates you can choose from:
+L'étape suivante consiste à configurer une tâche. Pour faire cela, ouvrez **la palette de commandes** avec `kb(workbench.action.showCommands)` and type in **Configure Task Runner**, press `kbstyle(Enter)` to select it. This shows a selection box with templates you can choose from:
 
 ![Task Runner Selection](images/typescript/taskSelection.png)
 
